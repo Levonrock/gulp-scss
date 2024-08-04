@@ -1,0 +1,6 @@
+@import '../../mixins/content-sections';
+
+.content-section {
+  @include centred-section(600px, 100%);
+  padding: 20px 40px;
+}

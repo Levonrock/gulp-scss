@@ -1,0 +1,15 @@
+.card {
+  min-inline-size: 300px;
+  box-shadow: 0 0 4px black;
+
+    &__image {
+      inline-size: 100%;
+      aspect-ratio: 16/9;
+      object-fit: cover;
+      object-position: center;
+    }
+    &__content {
+      padding: 20px;
+      font-size: 24px;
+    }
+}
